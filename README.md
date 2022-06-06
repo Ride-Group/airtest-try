@@ -36,6 +36,9 @@ windows python
 windows java
 android
 android platform tools
+
+android get package name
+android adb get package name
 ```
 
 ```
