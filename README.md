@@ -29,6 +29,8 @@ assert_exists(Template("success.png"))
 keyevent("BACK")
 home()
 uninstall("package_name_of_your_apk")
+
+start_app("com.amap.android.location");
 ```
 
 ```
