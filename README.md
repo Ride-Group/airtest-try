@@ -31,6 +31,8 @@ home()
 uninstall("package_name_of_your_apk")
 
 start_app("com.autonavi.minimap");
+
+https://airtest.netease.com/changelog.html
 ```
 
 ```
