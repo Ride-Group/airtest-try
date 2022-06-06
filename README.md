@@ -34,6 +34,9 @@ start_app("com.autonavi.minimap");
 
 https://airtest.netease.com/changelog.html
 https://airtestproject.s3.netease.com/downloads/AirtestIDE/mac/AirtestIDE-mac-1.2.14.dmg
+
+from poco.drivers.android.uiautomation import AndroidUiautomationPoco
+poco = AndroidUiautomationPoco(use_airtest_input=True, screenshot_each_action=False)
 ```
 
 ```
