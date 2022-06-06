@@ -50,6 +50,8 @@ android platform tools
 android get package name
 android adb get package name
 airtest android.permission.WRITE_SECURE_SETTINGS
+小米：在开发者选项里，把“USB调试（安全设置）"打开即可。 允许USB调试修改权限或模拟点击
+oppo：在开发者选项里，把"禁止权限监控"打开即可。
 ```
 
 ```
