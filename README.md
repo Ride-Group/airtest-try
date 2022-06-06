@@ -37,6 +37,8 @@ https://airtestproject.s3.netease.com/downloads/AirtestIDE/mac/AirtestIDE-mac-1.
 
 from poco.drivers.android.uiautomation import AndroidUiautomationPoco
 poco = AndroidUiautomationPoco(use_airtest_input=True, screenshot_each_action=False)
+
+https://airtest.doc.io.netease.com/IDEdocs/poco_framework/poco_restart/
 ```
 
 ```
