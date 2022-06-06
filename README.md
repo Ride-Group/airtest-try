@@ -25,3 +25,14 @@ android
 android platform tools
 ```
 
+```
+adb shell
+OP4E7F:/ $ ls
+acct        d              etc                    metadata        my_heytap    my_version  storage
+apex        data           init                   mnt             my_manifest  odm         sys
+bin         data_mirror    init.environ.rc        my_carrier      my_preload   oem         system
+bugreports  debug_ramdisk  init.environ.rc.patch  my_company      my_product   proc        system_ext
+cache       default.prop   linkerconfig           my_custom       my_region    product     vendor
+config      dev            lost+found             my_engineering  my_stock     sdcard
+```
+
