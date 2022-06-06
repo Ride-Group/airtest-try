@@ -18,6 +18,19 @@ List of devices attached
 TKUCSSE6Y9AYNZKN        device
 ```
 
+```python
+from airtest.core.api import *
+init_device("Android")
+install("path/to/your/apk")
+start_app("package_name_of_your_apk")
+touch(Template("image_of_a_button.png"))
+swipe(Template("slide_start.png"), Template("slide_end.png"))
+assert_exists(Template("success.png"))
+keyevent("BACK")
+home()
+uninstall("package_name_of_your_apk")
+```
+
 ```
 windows python
 windows java
