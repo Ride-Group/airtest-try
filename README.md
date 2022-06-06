@@ -30,7 +30,7 @@ keyevent("BACK")
 home()
 uninstall("package_name_of_your_apk")
 
-start_app("com.amap.android.location");
+start_app("com.autonavi.minimap");
 ```
 
 ```
