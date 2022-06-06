@@ -49,6 +49,7 @@ android platform tools
 
 android get package name
 android adb get package name
+airtest android.permission.WRITE_SECURE_SETTINGS
 ```
 
 ```
