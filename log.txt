@@ -2351,3 +2351,5 @@ ActivityStackSupervisor state:
           Task{fe85ac8 #3 visible=false type=undefined mode=split-screen-primary translucent=true ?? U=0 StackId=3 sz=0}
           Task{47c761 #4 visible=false type=undefined mode=split-screen-secondary translucent=true ?? U=0 StackId=4 sz=0}
 
+
+does not have android.permission.WRITE_SECURE_SETTINGS
