@@ -407,3 +407,27 @@ package:com.google.android.inputmethod.latin
 package:com.oppo.lfeh
 package:com.achievo.vipshop
 package:com.android.theme.icon_pack.circular.android
+
+
+
+adb logcat | find "START"
+- waiting for device -
+06-06 17:16:16.634  1413  2672 D ORMS_CORE: Set scene action identity: com.android.launcher3.folder scene: , action: ORMS_ACTION_ACTIVITY_START, timeout: 600, handle: 1172456568653887015
+06-06 17:16:27.843  1413  3062 D ORMS_CORE: Set scene action identity: com.android.server.oppo scene: , action: ORMS_ACTION_ACTIVITY_START, timeout: 500, handle: 1512759991957275080
+06-06 17:16:27.844  1413  3062 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.autonavi.minimap/com.autonavi.map.activity.SplashActivity bnds=[294,1369][540,1675] mCallingUid=10061} from uid 10061 and from pid 2499
+06-06 17:16:28.124  1413  1435 D ORMS_CORE: Set scene action identity: android.view.inputmethod scene: , action: ORMS_ACTION_ACTIVITY_START, timeout: 600, handle: 4736025665367971917
+06-06 17:16:46.450  1413  2672 D ORMS_CORE: Set scene action identity: com.android.launcher3.folder scene: , action: ORMS_ACTION_ACTIVITY_START, timeout: 600, handle: 4374181576549840366
+06-06 17:16:48.581  1413  1435 D ORMS_CORE: Set scene action identity: com.android.server.oppo scene: , action: ORMS_ACTION_ACTIVITY_START, timeout: 500, handle: 146545645665315950
+06-06 17:16:48.582  1413  1435 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.autonavi.minimap/com.autonavi.map.activity.SplashActivity bnds=[294,1369][540,1675] mCallingUid=10061} from uid 10061 and from pid 2499
+06-06 17:16:49.198  1413  1435 D ORMS_CORE: Set scene action identity: android.app scene: , action: ORMS_ACTION_ACTIVITY_START, timeout: 600, handle: 6950975302628283516
+06-06 17:16:49.211  1413  1435 D ORMS_CORE: Set scene action identity: com.android.server.oppo scene: , action: ORMS_ACTION_ACTIVITY_START, timeout: 500, handle: 1590961862783920646
+06-06 17:16:49.212  1413  1435 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.autonavi.minimap/com.autonavi.map.activity.NewMapActivity bnds=[294,1369][540,1675] mCallingUid=10196} from uid 10196 and from pid 17133
+06-06 17:16:49.272  1413  4545 D ORMS_CORE: Set scene action identity: android.app scene: , action: ORMS_ACTION_ACTIVITY_START, timeout: 600, handle: 2594948077305062352
+06-06 17:16:49.282  1413  2160 D ORMS_CORE: Set scene action identity: android.app scene: , action: ORMS_ACTION_ACTIVITY_START, timeout: 600, handle: 5956443090968907384
+06-06 17:16:49.298  1413  2019 D ORMS_CORE: Set scene action identity: android.app scene: , action: ORMS_ACTION_ACTIVITY_START, timeout: 600, handle: 5825726198540781448
+06-06 17:16:49.675  1413  4559 D ORMS_CORE: Set scene action identity: android.app scene: , action: ORMS_ACTION_ACTIVITY_START, timeout: 600, handle: 4363227059741214116
+06-06 17:16:50.619  1413  4559 D ORMS_CORE: Set scene action identity: android.graphics scene: , action: ORMS_ACTION_ACTIVITY_START, timeout: 600, handle: 3590345500988000451
+06-06 17:16:55.138 17133 17924 I sandbox.Render.NN.ServiceSetting: event A WARM_UP          <- 1 START
+06-06 17:16:55.309 17133 17963 D AsyTskExecutor: [null] -- 2_start_pipeline#com.alipay.mobile.client.STARTED start at 1654507015276
+06-06 17:16:55.405 17133 17963 D AsyTskExecutor: [null] -- 2_start_pipeline#com.alipay.mobile.client.STARTED end cost 129
+06-06 17:16:55.405 17133 17963 D AsyTskExecutor: reset PipelineRunnable = com.alipay.mobile.quinox.asynctask.PipelineRunnable@df2ee86, task = com.alipay.mobile.core.pipeline.impl.PipelineManager$StandardPipelineWrapper$1, threadName = 2_start_pipeline#com.alipay.mobile.client.STARTED
