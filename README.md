@@ -39,6 +39,7 @@ from poco.drivers.android.uiautomation import AndroidUiautomationPoco
 poco = AndroidUiautomationPoco(use_airtest_input=True, screenshot_each_action=False)
 
 https://airtest.doc.io.netease.com/IDEdocs/poco_framework/poco_restart/
+https://www.cnblogs.com/yoyoketang/p/14808070.html
 ```
 
 ```
